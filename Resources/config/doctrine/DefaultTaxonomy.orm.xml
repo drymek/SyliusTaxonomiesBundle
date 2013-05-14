@@ -13,6 +13,7 @@
                 <cascade-all/>
             </cascade>
         </many-to-one>
+        <one-to-many field="taxons" target-entity="Sylius\Bundle\TaxonomiesBundle\Entity\Taxon" mapped-by="taxonomy" />
     </entity>
 
 </doctrine-mapping>

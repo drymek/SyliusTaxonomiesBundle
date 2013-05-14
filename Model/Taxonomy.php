@@ -43,6 +43,13 @@ class Taxonomy implements TaxonomyInterface
     protected $root;
 
     /**
+     * Children taxons
+     *
+     * @var TaxonInterface
+     */
+    protected $taxons;
+
+    /**
      * {@inheritdoc}
      */
     public function __toString()
